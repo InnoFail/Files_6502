@@ -6,7 +6,7 @@ Just trying to learn 6502 by creating my own programming language on it
 
 In browser version of 6502 Assembler the DEFINE function do not work properly, so instead replace them as shown below
 
-DEFINE A_H $01 --------> A_H: 
+DEFINE A_H $0001 --------> A_H: 
                          DCB $01
                        
  The code should work just fine then.
